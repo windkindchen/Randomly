@@ -39,7 +39,8 @@ Beispiele für die Anwendung sind: zufälliges Partnerforum, zufälliges Gesuch 
 
 ### Templateänderungen:
 Folgende Änderungen gibt es:
-- Neue Templategruppe **Random Threads auf dem Index** in jedem Templateset
+- Neue Templategruppe **Random Threads auf dem Index** (in jedem Templateset)
+
 - 8 **neue** Templates: 
 -   randomly_single_index
 -   randomly_single_bit
@@ -49,7 +50,9 @@ Folgende Änderungen gibt es:
 -   randomly_v2_bit
 -   randomly_v3_index
 -   randomly_v3_bit
-- 1 **geändertes** Template: forumbit_depth1_cat
+
+- 1 **geändertes** Template: 
+- forumbit_depth1_cat
 
 ### Variablen:
 - in der forumbit_depth1_cat: {$forum['randomly_index']} {$forum['randomly_index2']} {$forum['randomly_index3']}
