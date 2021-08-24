@@ -40,7 +40,15 @@ Beispiele für die Anwendung sind: zufälliges Partnerforum, zufälliges Gesuch 
 ### Templateänderungen:
 Folgende Änderungen gibt es:
 - Neue Templategruppe **Random Threads auf dem Index** in jedem Templateset
-- 8 **neue** Templates: randomly_single_index, randomly_single_bit; randomly_v1_index, randomly_v1_bit; randomly_v2_index, randomly_v2_bit; randomly_v3_index, randomly_v3_bit
+- 8 **neue** Templates: 
+-   randomly_single_index
+-   randomly_single_bit
+-   randomly_v1_index
+-   randomly_v1_bit
+-   randomly_v2_index
+-   randomly_v2_bit
+-   randomly_v3_index
+-   randomly_v3_bit
 - 1 **geändertes** Template: forumbit_depth1_cat
 
 ### Variablen:
