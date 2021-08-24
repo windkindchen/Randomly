@@ -239,25 +239,25 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_single_bit',
                         'template' => $db->escape_string('
-												<div class="roi_box">
-												  <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+<div class="roi_box">
+	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
 
-												  <div class="roi_inhalt">
-												    <div class="roi_title">{$roi_threadtitle}</div>
-												    <div class="roi_gesuch">
-												      <div>
-												        <div class="roi_info">FREIE VARIABLE 1</div>
-												        <div class="roi_info">FREIE VARIABLE 2</div>
-												        <div class="roi_info">Forum: {$roi_forum}</div>
-												      </div>
-												      <div class="roi_desc">
-												        FREIE BESCHREIBUNGSVARIABLE
-														</div>
-														gesucht von: {$roi_suchender}
+	<div class="roi_inhalt">
+		<div class="roi_title">{$roi_threadtitle}</div>
+		<div class="roi_gesuch">
+			<div>
+				<div class="roi_info">FREIE VARIABLE 1</div>
+				<div class="roi_info">FREIE VARIABLE 2</div>
+				<div class="roi_info">Forum: {$roi_forum}</div>
+			</div>
+			<div class="roi_desc">
+				FREIE BESCHREIBUNGSVARIABLE
+			</div>
+			gestartet von: {$roi_threadstarter}
 
-												    </div>
-												  </div>
-												</div>
+		</div>
+	</div>
+</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -280,25 +280,25 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_v1_bit',
                         'template' => $db->escape_string('
-												<div class="roi_box">
-												  <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+<div class="roi_box">
+	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
 
-												  <div class="roi_inhalt">
-												    <div class="roi_title">{$roi_threadtitle}</div>
-												    <div class="roi_gesuch">
-												      <div>
-												        <div class="roi_info">FREIE VARIABLE 1</div>
-												        <div class="roi_info">FREIE VARIABLE 2</div>
-												        <div class="roi_info">Forum: {$roi_forum}</div>
-												      </div>
-												      <div class="roi_desc">
-												        FREIE BESCHREIBUNGSVARIABLE
-														</div>
-														gesucht von: {$roi_suchender}
+	<div class="roi_inhalt">
+		<div class="roi_title">{$roi_threadtitle}</div>
+		<div class="roi_gesuch">
+		<div>
+			<div class="roi_info">FREIE VARIABLE 1</div>
+			<div class="roi_info">FREIE VARIABLE 2</div>
+			<div class="roi_info">Forum: {$roi_forum}</div>
+		</div>
+		<div class="roi_desc">
+			FREIE BESCHREIBUNGSVARIABLE
+		</div>
+		gestartet von: {$roi_threadstarter}
 
-												    </div>
-												  </div>
-												</div>
+		</div>
+	</div>
+</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -320,25 +320,25 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_v2_bit',
                         'template' => $db->escape_string('
-												<div class="roi_box">
-												  <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+<div class="roi_box">
+	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
 
-												  <div class="roi_inhalt">
-												    <div class="roi_title">{$roi_threadtitle}</div>
-												    <div class="roi_gesuch">
-												      <div>
-												        <div class="roi_info">FREIE VARIABLE 1</div>
-												        <div class="roi_info">FREIE VARIABLE 2</div>
-												        <div class="roi_info">Forum: {$roi_forum}</div>
-												      </div>
-												      <div class="roi_desc">
-												        FREIE BESCHREIBUNGSVARIABLE
-														</div>
-														gesucht von: {$roi_suchender}
+	<div class="roi_inhalt">
+		<div class="roi_title">{$roi_threadtitle}</div>
+		<div class="roi_gesuch">
+			<div>
+				<div class="roi_info">FREIE VARIABLE 1</div>
+				<div class="roi_info">FREIE VARIABLE 2</div>
+				<div class="roi_info">Forum: {$roi_forum}</div>
+			</div>
+			<div class="roi_desc">
+				FREIE BESCHREIBUNGSVARIABLE
+			</div>
+			gestartet von: {$roi_threadstarter}
 
-												    </div>
-												  </div>
-												</div>
+		</div>
+	</div>
+</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -361,25 +361,25 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_v3_bit',
                         'template' => $db->escape_string('
-												<div class="roi_box">
-												  <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+<div class="roi_box">
+	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
 
-												  <div class="roi_inhalt">
-												    <div class="roi_title">{$roi_threadtitle}</div>
-												    <div class="roi_gesuch">
-												      <div>
-												        <div class="roi_info">FREIE VARIABLE 1</div>
-												        <div class="roi_info">FREIE VARIABLE 2</div>
-												        <div class="roi_info">Forum: {$roi_forum}</div>
-												      </div>
-												      <div class="roi_desc">
-												        FREIE BESCHREIBUNG
-														</div>
-														gesucht von: {$roi_suchender} 
+	<div class="roi_inhalt">
+		<div class="roi_title">{$roi_threadtitle}</div>
+		<div class="roi_gesuch">
+			<div>
+				<div class="roi_info">FREIE VARIABLE 1</div>
+				<div class="roi_info">FREIE VARIABLE 2</div>
+				<div class="roi_info">Forum: {$roi_forum}</div>
+			</div>
+			<div class="roi_desc">
+				FREIE BESCHREIBUNGSVARIABLE
+			</div>
+		  gestartet von: {$roi_threadstarter}
 
-												    </div>
-												  </div>
-												</div>
+		</div>
+  </div>
+</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -619,8 +619,11 @@ function randomly_index(&$forum)
 
 
 		// Die Keys als variable Variablen.
-		$randomly_fields1_ex = explode(", ", $randomly_fields1);
-		$count1 = count($randomly_fields1_ex);
+		if ($randomly_xthread == '1')
+		{
+			$randomly_fields1_ex = explode(", ", $randomly_fields1);
+			$count1 = count($randomly_fields1_ex);
+		}
 
 		// Schleife zum Auslesen
 		while ($randomly1 = $db->fetch_array($randomly_query1))
@@ -637,7 +640,7 @@ function randomly_index(&$forum)
 			}
 
 			// Suchender User
-			$roi_suchender = build_profile_link($randomly1['username'], $randomly1['uid']);
+			$roi_threadstarter = build_profile_link($randomly1['username'], $randomly1['uid']);
 
 			// Forumlink
 			$roi_forum = "<a href=\"forumdisplay.php?fid=".$randomly1['fid']."\">".$randomly1['name']."</a>";
@@ -645,13 +648,15 @@ function randomly_index(&$forum)
 			// Thementitel:
 			$roi_threadtitle = "<a href=\"showthread.php?tid=".$randomly1['tid']."\">".$randomly1['subject']."</a>";
 
-			// Füllen der variablen Variablen
-			for ($i = 0; $i < $count1; $i++)
+			// Füllen der variablen Variablen, wenn xThreads vorhanden.
+			if ($count1 > '0')
 			{
-				$rand = $randomly_fields1_ex[$i];
-				$$rand = $randomly1[$rand];
+				for ($i = 0; $i < $count1; $i++)
+				{
+					$rand = $randomly_fields1_ex[$i];
+					$$rand = $randomly1[$rand];
+				}
 			}
-
 
 			// Ausgabe der Daten - abhängig
 			if ($randomly_templates == '0')
@@ -713,6 +718,14 @@ function randomly_index(&$forum)
 		// $roi_bit leeren
 		$forum['roi_bit']  = "";
 
+		// Die Keys als variable Variablen.
+		if ($randomly_xthread == '1')
+		{
+			$randomly_fields2_ex = explode(", ", $randomly_fields2);
+			$count2 = count($randomly_fields2_ex);
+		}
+
+
 		// Schleife zum Auslesen
 		while ($randomly2 = $db->fetch_array($randomly_query2))
 		{
@@ -728,10 +741,20 @@ function randomly_index(&$forum)
 			}
 
 			// Suchender User
-			$roi_suchender = build_profile_link($randomly2['username'], $randomly2['uid']);
+			$roi_threadstarter = build_profile_link($randomly2['username'], $randomly2['uid']);
 
 			// Forumlink
 			$roi_forum = "<a href=\"forumdisplay.php?fid=".$randomly2['fid']."\">".$randomly2['name']."</a>";
+
+			// Füllen der variablen Variablen, wenn xThreads vorhanden.
+			if ($count2 > '0')
+			{
+				for ($i = 0; $i < $count2; $i++)
+				{
+					$rand = $randomly_fields2_ex[$i];
+					$$rand = $randomly2[$rand];
+				}
+			}
 
 
 			// Thementitel:
@@ -797,6 +820,14 @@ function randomly_index(&$forum)
 		// $roi_bit leeren
 		$forum['roi_bit']  = "";
 
+		// Die Keys als variable Variablen.
+		if ($randomly_xthread == '1')
+		{
+			$randomly_fields3_ex = explode(", ", $randomly_fields3);
+			$count3 = count($randomly_fields3_ex);
+		}
+
+
 		// Schleife zum Auslesen
 		while ($randomly3 = $db->fetch_array($randomly_query3))
 		{
@@ -812,7 +843,7 @@ function randomly_index(&$forum)
 			}
 
 			// Suchender User
-			$roi_suchender = build_profile_link($randomly3['username'], $randomly3['uid']);
+			$roi_threadstarter = build_profile_link($randomly3['username'], $randomly3['uid']);
 
 			// Forumlink
 			$roi_forum = "<a href=\"forumdisplay.php?fid=".$randomly3['fid']."\">".$randomly3['name']."</a>";
@@ -820,6 +851,16 @@ function randomly_index(&$forum)
 
 			// Thementitel:
 			$roi_threadtitle = "<a href=\"showthread.php?tid=".$randomly3['tid']."\">".$randomly3['subject']."</a>";
+
+			// Füllen der variablen Variablen, wenn xThreads vorhanden.
+			if ($count3 > '0')
+			{
+				for ($i = 0; $i < $count3; $i++)
+				{
+					$rand = $randomly_fields3_ex[$i];
+					$$rand = $randomly3[$rand];
+				}
+			}
 
 			// Ausgabe der Daten - abhängig
 			if ($randomly_templates == '0')
