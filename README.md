@@ -79,11 +79,9 @@ Die verschiedenen Randoms können mit eigenständigen Einstellungen versehen wer
 - **xThread-Felder**: Wenn xThreads verwendet wird, können hier die Keys der Felder, die mit ausgegeben werden sollen, angegeben werden. Die Felder können in den dem "bit" endenden Templates als Variablen genutzt werden: Ein Feld mit dem Key **partner_url** kann als **{$partner_url}** im Template verwendet werden.
 
 
-#### xThreads-Keys herausfinden
+##### xThreads-Keys herausfinden
 Ihr fragt euch, wie ihr die passenden xThread-Keys findet? Ihr geht im AdminCP auf **Konfiguration** -> **Custom Thread Fields**. 
-
-Das sieht dann so an: 
-
+Das sieht dann so aus: 
 <img src="https://i.postimg.cc/kXgn9xPM/keys-xthread.png" border="0" />
 
 Ihr könnt euch die benötigten Keys hier rauskopieren und entsprechend einfügen.
