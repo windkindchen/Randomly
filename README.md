@@ -83,6 +83,7 @@ Die verschiedenen Randoms können mit eigenständigen Einstellungen versehen wer
 Ihr fragt euch, wie ihr die passenden xThread-Keys findet? Ihr geht im AdminCP auf **Konfiguration** -> **Custom Thread Fields**. 
 
 Das sieht dann so an: 
+
 <img src="https://i.postimg.cc/kXgn9xPM/keys-xthread.png" border="0" />
 
 Ihr könnt euch die benötigten Keys hier rauskopieren und entsprechend einfügen.
