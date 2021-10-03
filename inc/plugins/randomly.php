@@ -15,7 +15,7 @@ function randomly_info()
 	return array(
 		"name"			=> "Randomly Index - Random Threads auf dem Index",
 		"description"	=> "Aus festgelegten Foren einer Kategorie werden zufällige Themen auf dem Index angezeigt. <br /><br />
-    Einbindbare Plugins: XThreads, Themenbeschreibung/Thread Desription (von Starpaul20)",
+    Einbindbare Plugins: XThreads",
 		"website"		=> "https://www.fam-thiessen.net",
 		"author"		=> "#rivers @ EPIC [May-Britt Thie&szlig;en]",
 		"authorsite"	=> "https://www.fam-thiessen.net",
@@ -240,24 +240,29 @@ function randomly_install()
                         'title' => 'randomly_single_bit',
                         'template' => $db->escape_string('
 <div class="roi_box">
-	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+    <div class="roi_title">{$roi_threadtitle}</div>
+    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+    <div class="roi_forum">Forum: {$roi_forum}</div>
+    <div class="roi_body">
+      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
+      </div>
 
-	<div class="roi_inhalt">
-		<div class="roi_title">{$roi_threadtitle}</div>
-		<div class="roi_gesuch">
-			<div>
-				<div class="roi_info">FREIE VARIABLE 1</div>
-				<div class="roi_info">FREIE VARIABLE 2</div>
-				<div class="roi_info">Forum: {$roi_forum}</div>
-			</div>
-			<div class="roi_desc">
-				FREIE BESCHREIBUNGSVARIABLE
-			</div>
-			gestartet von: {$roi_threadstarter}
+      <div class="roi_inhalt">
 
-		</div>
-	</div>
-</div>
+        <div class="roi_gesuch">
+          <div class="roi_information">
+            <div class="roi_info">FREIE VARIABLE 1</div>
+            <div class="roi_info">FREIE VARIABLE 2</div>
+
+          </div>
+          <div class="roi_desc">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -281,24 +286,29 @@ function randomly_install()
                         'title' => 'randomly_v1_bit',
                         'template' => $db->escape_string('
 <div class="roi_box">
-	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+    <div class="roi_title">{$roi_threadtitle}</div>
+    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+    <div class="roi_forum">Forum: {$roi_forum}</div>
+    <div class="roi_body">
+      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
+      </div>
 
-	<div class="roi_inhalt">
-		<div class="roi_title">{$roi_threadtitle}</div>
-		<div class="roi_gesuch">
-		<div>
-			<div class="roi_info">FREIE VARIABLE 1</div>
-			<div class="roi_info">FREIE VARIABLE 2</div>
-			<div class="roi_info">Forum: {$roi_forum}</div>
-		</div>
-		<div class="roi_desc">
-			FREIE BESCHREIBUNGSVARIABLE
-		</div>
-		gestartet von: {$roi_threadstarter}
+      <div class="roi_inhalt">
 
-		</div>
-	</div>
-</div>
+        <div class="roi_gesuch">
+          <div class="roi_information">
+            <div class="roi_info">FREIE VARIABLE 1</div>
+            <div class="roi_info">FREIE VARIABLE 2</div>
+
+          </div>
+          <div class="roi_desc">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -321,24 +331,29 @@ function randomly_install()
                         'title' => 'randomly_v2_bit',
                         'template' => $db->escape_string('
 <div class="roi_box">
-	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+    <div class="roi_title">{$roi_threadtitle}</div>
+    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+    <div class="roi_forum">Forum: {$roi_forum}</div>
+    <div class="roi_body">
+      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
+      </div>
 
-	<div class="roi_inhalt">
-		<div class="roi_title">{$roi_threadtitle}</div>
-		<div class="roi_gesuch">
-			<div>
-				<div class="roi_info">FREIE VARIABLE 1</div>
-				<div class="roi_info">FREIE VARIABLE 2</div>
-				<div class="roi_info">Forum: {$roi_forum}</div>
-			</div>
-			<div class="roi_desc">
-				FREIE BESCHREIBUNGSVARIABLE
-			</div>
-			gestartet von: {$roi_threadstarter}
+      <div class="roi_inhalt">
 
-		</div>
-	</div>
-</div>
+        <div class="roi_gesuch">
+          <div class="roi_information">
+            <div class="roi_info">FREIE VARIABLE 1</div>
+            <div class="roi_info">FREIE VARIABLE 2</div>
+
+          </div>
+          <div class="roi_desc">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -362,24 +377,29 @@ function randomly_install()
                         'title' => 'randomly_v3_bit',
                         'template' => $db->escape_string('
 <div class="roi_box">
-	<div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;" /></div>
+    <div class="roi_title">{$roi_threadtitle}</div>
+    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+    <div class="roi_forum">Forum: {$roi_forum}</div>
+    <div class="roi_body">
+      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
+      </div>
 
-	<div class="roi_inhalt">
-		<div class="roi_title">{$roi_threadtitle}</div>
-		<div class="roi_gesuch">
-			<div>
-				<div class="roi_info">FREIE VARIABLE 1</div>
-				<div class="roi_info">FREIE VARIABLE 2</div>
-				<div class="roi_info">Forum: {$roi_forum}</div>
-			</div>
-			<div class="roi_desc">
-				FREIE BESCHREIBUNGSVARIABLE
-			</div>
-		  gestartet von: {$roi_threadstarter}
+      <div class="roi_inhalt">
 
-		</div>
+        <div class="roi_gesuch">
+          <div class="roi_information">
+            <div class="roi_info">FREIE VARIABLE 1</div>
+            <div class="roi_info">FREIE VARIABLE 2</div>
+
+          </div>
+          <div class="roi_desc">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
-</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -393,66 +413,63 @@ function randomly_install()
 							'name' => 'randomindex.css',
 							'tid' => 1,
 							'stylesheet' => '.roi {
+  background: #efefef;
   width: 100%;
-  background: none;
-  border: 0;
+
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .roi_box {
-  width: 49%;
-  box-sizing: border-box;
-  padding: 15px;
-  background-color: #ccc;
+  background: #fff;
+  width: 47%;
+  padding: 10px;
+}
+
+.roi_title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.roi_body {
   display: flex;
-  gap: 2%;
+  gap: 10px;
 }
 
 .roi_img {
-  width: 28%;
+  width: 150px;
   height: 150px;
-  background-color: #eee;
 }
 
 .roi_inhalt {
   width: 70%;
-  background: #fff;
 }
 
-.roi_title {
-  font-weight: bold;
-  text-transform: uppercase;
-  height: 25px;
-  margin: 0;
+.roi_forum {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .roi_gesuch {
+}
+
+.roi_information {
   display: flex;
-  gap: 10px;
-  justify-content: space-between;
-  height: 125px;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .roi_info {
-  width: 150px;
-  background: #efefef;
-  margin: 2px 0;
-  padding: 2px;
-  text-align: center;
+  background: #a0a0a0;
+
+  padding: 5px;
 }
 
 .roi_desc {
-  position: relative;
-  height: 125px;
-}
-
-.roi_desc:after {
-  content: attr(data-title);
-  position: absolute;
-  right: 0;
-  bottom: 0px;
-  font-size: 10px;
+  text-align: justify;
 }',
 							'cachefile' => $db->escape_string(str_replace('/', '', "randomindex.css")),
 							'lastmodified' => time()
