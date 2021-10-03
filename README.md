@@ -5,28 +5,26 @@
 Ein MyBB-Plugin, mit dem sich zufällig ausgelesene Inhalte zwischen zwei Kategorien (oder neben einer Kategorie) anzeigen lassen.
 
 ### Anmerkung
-Bitte lest die ReadMe aufmerksam, damit es bei der Installation und bei den Einstellungen des Plugins nicht zu Problem kommt.
+Bitte lest die ReadMe aufmerksam, damit es bei der Installation und bei den Einstellungen des Plugins nicht zu Problemen kommt.
 Macht bitte ein Backup vor der Installation.
 
 ### Eingebundene Plugins
-Das Plugin <a href="http://mybbhacks.zingaburga.com/showthread.php?tid=288" target=_blank>xThreads</a> von <a href="http://mybbhacks.zingaburga.com/member.php?action=profile&uid=1" target=_blank>ZiNgA BuRgA</a> kann eingebunden werden, muss dies jedoch nicht.
+Das Plugin <a href="http://mybbhacks.zingaburga.com/showthread.php?tid=288" target=_blank>xThreads</a> von <a href="http://mybbhacks.zingaburga.com/member.php?action=profile&uid=1" target=_blank>ZiNgA BuRgA</a> kann eingebunden werden, muss jedoch nicht.
 
 
 ## Beschreibung
-Mit dem Plugin **Randomly** für das MyBB kannst du zufällig ausgewählte Threads auf der Startseite für bestimmte Gruppen auf der Startseite an einer Kategorie ausgeben lassen. Mit CSS und HTML kann bestimmt werden, ob dies vor, hinter oder neben einer Kategorie sein soll. 
+Mit dem Plugin **Randomly** für das MyBB kannst du einen oder mehrere zufällig ausgewählte Threads aus Foren deiner Wahl für bestimmte Gruppen auf der Startseite über, unter oder neben der Kategorie ausgeben lassen.
 Beispiele für die Anwendung sind: zufälliges Partnerforum, zufälliges Gesuch - oder für User ein zufälliger Thread aus dem Inplay. Die Einstellungen erlauben variable Einsätze von bis zu drei verschiedenen Randominhalten, die auch unterschiedlich formatierbar sind.
 
 **Beispiel**
 <img src="https://i.postimg.cc/Pr77rPY9/beispiel-partner.png" border="0" />
 
-
-
 ## Installation
 1. Herunterladen der Dateien und auf dem PC entpacken.
 2. Hochladen der Datei randomly.php in den Ordner inc/plugins des Forums
 3. Im AdminCP unter Plugins auf "Installieren & aktivieren" klicken. Das Plugin ist nun einsatzbereit.
-4. Unter "Konfiguration" - "Einstellungen" - "Randomly Index" alle Einstellungen treffen.
-5. Templates und CSS anpassen.
+4. Unter "Konfiguration" - "Einstellungen" - "Randomly Index" alle Einstellungen machen.
+5. Templates (in den Design Template-Verzeichnissen) und CSS (randomindex.css) anpassen.
 
 
 ## Veränderungen / Neue Dateien
@@ -66,11 +64,11 @@ Die Einstellungen sind in vier Blöcke unterteilt: Allgemein, Random 1, Random 2
 
 #### Allgemein
 - **[Allgemein] xThreads**: Auswahl, ob das Plugin installiert ist. Dies erlaubt den späteren Rückgriff auf die Threadfields über den Key des Feldes (s. unten)
-- **[Allgemein] Anzahl der Randoms**: Ihr könnt an bis zu drei Stellen auf der Startseite die Randoms anzeigen lassen. Wählt hier aus, an wie vielen ihr dies haben wollt. Standardeinstellung ist "1", bei "0" ist das Plugin deaktiviert. Das Plugin ist aktuell für bis zu drei Randoms ausgelegt. Sollten mehr Randoms gewünscht sein, bitte melden.
+- **[Allgemein] Anzahl der Randoms**: Ihr könnt an bis zu drei Stellen auf der Startseite die Randoms anzeigen lassen. Wählt hier aus, an wie vielen ihr dies haben wollt. Standardeinstellung ist "1", bei "0" ist das Plugin deaktiviert. Das Plugin ist aktuell für bis zu drei Randoms ausgelegt.
 - **[Allgemein] Verschiedene Templates**: Ihr könnt wählen, ob bei mehreren Randoms verschiedene Templates genutzt werden sollen. Wählt ihr "Nein", sind Templateänderungen in den Templates **randomly_single_index** und **randomly_single_bit** erforderlich. Andernfalls in den anderen Templates (die Nummer im Templatenamen entspricht der Reihenfolge in den Einstellungen).
 
 #### Random 1, Random 2 und Random 3
-Die verschiedenen Randoms können mit eigenständigen Einstellungen durchgeführt werden.
+Die verschiedenen Randoms können mit eigenständigen Einstellungen versehen werden.
 - **Anzeigekategorie**: An welcher Kategorie sollen die Inhalte angezeigt werden? (Durch Einstellungen mit der CSS und Verschiebung der Variablen im Template forenbit_depth1_cat kann bestimmt werden, ob dies vor, hinter oder neben der Kategorie angezeigt werden soll).
 - **Foren für Randominhalte**: Auswahl der Foren, z.B. bei Partnern aus den Unterforen nach Genres, bei Gesuchen die Unterforen, in denen die verschiedenen Gesuchsarten stehen.
 - **Anzeige für folgende Gruppen**: Welche Gruppen dürfen diesen Random sehen? 
