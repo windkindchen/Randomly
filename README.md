@@ -39,7 +39,7 @@ Beispiele für die Anwendung sind: zufälliges Partnerforum, zufälliges Gesuch 
 Folgende Änderungen gibt es:
 - Neue Templategruppe **Random Threads auf dem Index** (in jedem Templateset)
 
-- 8 **neue** Templates: 
+8 **neue** Templates: 
 -   randomly_single_index
 -   randomly_single_bit
 -   randomly_v1_index
@@ -49,11 +49,11 @@ Folgende Änderungen gibt es:
 -   randomly_v3_index
 -   randomly_v3_bit
 
-- 1 **geändertes** Template: 
+1 **geändertes** Template: 
 - forumbit_depth1_cat
 
 ### Variablen:
-- in der forumbit_depth1_cat: {$forum['randomly_index']} {$forum['randomly_index2']} {$forum['randomly_index3']}
+- in der forumbit_depth1_cat: **{$forum['randomly_index']} {$forum['randomly_index2']} {$forum['randomly_index3']}**
 - Wenn Veränderungen z.B. mit xThreads (neues Templateset für die Kategorie) gemacht wurden, müssen die Variablen ggf. händisch eingefügt werden.
 
 
@@ -61,6 +61,7 @@ Folgende Änderungen gibt es:
 ## Funktionsweise
 ### Einstellungen
 Die Einstellungen sind in vier Blöcke unterteilt: Allgemein, Random 1, Random 2, Random 3.
+
 
 #### Allgemein
 - **[Allgemein] xThreads**: Auswahl, ob das Plugin installiert ist. Dies erlaubt den späteren Rückgriff auf die Threadfields über den Key des Feldes (s. unten)
@@ -76,6 +77,14 @@ Die verschiedenen Randoms können mit eigenständigen Einstellungen versehen wer
 - **Key des Bildfeldes (xThreads)**: Wird xThreads verwendet und es gibt ein Feld für Bilder (z.B. Buttons der Partner), könnt ihr hier den Key eingeben.
 - **Ersatzbild**: Wenn es kein entsprechendes Feld gibt, kann hier ein Ersatzbild eingetragen werden, das auch Gästen angezeigt wird.
 - **xThread-Felder**: Wenn xThreads verwendet wird, können hier die Keys der Felder, die mit ausgegeben werden sollen, angegeben werden. Die Felder können in den dem "bit" endenden Templates als Variablen genutzt werden: Ein Feld mit dem Key **partner_url** kann als **{$partner_url}** im Template verwendet werden.
+
+
+##### xThreads-Keys herausfinden
+Ihr fragt euch, wie ihr die passenden xThread-Keys findet? Ihr geht im AdminCP auf **Konfiguration** -> **Custom Thread Fields** 
+Das sieht dann so an: 
+<img src="https://i.postimg.cc/kXgn9xPM/keys-xthread.png" border="0" />
+
+Ihr könnt euch die benötigten Keys hier rauskopieren und entsprechend einfügen.
 
 
 ### Templates & CSS
