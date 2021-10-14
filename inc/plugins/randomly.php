@@ -244,7 +244,7 @@ function randomly_install()
 														<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
 														<div class="roi_forum">Forum: {$roi_forum}</div>
 														<div class="roi_body">
-															<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
+															<div class="roi_img" style="background: url(\'{$roi_image} \'); background-size: cover; background-position: center; "></div>
 
 															<div class="roi_inhalt">
 
@@ -289,7 +289,7 @@ function randomly_install()
 		<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
 		<div class="roi_forum">Forum: {$roi_forum}</div>
 		<div class="roi_body">
-			<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
+			<div class="roi_img" style="background: url(\'{$roi_image} \'); background-size: cover; background-position: center; "></div>
 
 			<div class="roi_inhalt">
 
@@ -333,7 +333,7 @@ function randomly_install()
 														<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
 														<div class="roi_forum">Forum: {$roi_forum}</div>
 														<div class="roi_body">
-															<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
+															<div class="roi_img" style="background: url(\'{$roi_image} \'); background-size: cover; background-position: center; "></div>
 
 															<div class="roi_inhalt">
 
@@ -378,7 +378,7 @@ function randomly_install()
 														<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
 														<div class="roi_forum">Forum: {$roi_forum}</div>
 														<div class="roi_body">
-															<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
+															<div class="roi_img" style="background: url(\'{$roi_image} \'); background-size: cover; background-position: center; "></div>
 
 															<div class="roi_inhalt">
 
