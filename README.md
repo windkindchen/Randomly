@@ -2,7 +2,7 @@
 
 ## Allgemeines:
 ### Kurzbeschreibung
-Ein MyBB-Plugin, mit dem sich zufällig ausgelesene Inhalte zwischen zwei Kategorien (oder neben einer Kategorie) anzeigen lassen.
+Ein MyBB-Plugin, mit dem sich zufällig ausgelesene Inhalte zwischen zwei Kategorien (oder neben einer Kategorie) anzeigen lassen - **zum Beispiel zufällig ausgelesene Gesuche, Partner oder News**.
 
 ### Anmerkung
 Bitte lest die ReadMe aufmerksam, damit es bei der Installation und bei den Einstellungen des Plugins nicht zu Problemen kommt.
