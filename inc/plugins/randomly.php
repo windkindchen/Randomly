@@ -16,9 +16,9 @@ function randomly_info()
 		"name"			=> "Randomly Index - Random Threads auf dem Index",
 		"description"	=> "Aus festgelegten Foren einer Kategorie werden zufällige Themen auf dem Index angezeigt. <br /><br />
     Einbindbare Plugins: XThreads",
-		"website"		=> "https://www.fam-thiessen.net",
+		"website"		=> "https://epic.quodvide.de/member.php?action=profile&uid=75",
 		"author"		=> "#rivers @ EPIC [May-Britt Thie&szlig;en]",
-		"authorsite"	=> "https://www.fam-thiessen.net",
+		"authorsite"	=> "https://epic.quodvide.de/member.php?action=profile&uid=75",
 		"version"		=> "1.0",
 		"guid" 			=> "",
 		"codename"		=> "",
@@ -239,30 +239,29 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_single_bit',
                         'template' => $db->escape_string('
-<div class="roi_box">
-    <div class="roi_title">{$roi_threadtitle}</div>
-    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
-    <div class="roi_forum">Forum: {$roi_forum}</div>
-    <div class="roi_body">
-      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
-      </div>
+												<div class="roi_box">
+													<div class="roi_title">{$roi_threadtitle}</div>
+														<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+														<div class="roi_forum">Forum: {$roi_forum}</div>
+														<div class="roi_body">
+															<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
 
-      <div class="roi_inhalt">
+															<div class="roi_inhalt">
 
-        <div class="roi_gesuch">
-          <div class="roi_information">
-            <div class="roi_info">FREIE VARIABLE 1</div>
-            <div class="roi_info">FREIE VARIABLE 2</div>
+																<div class="roi_gesuch">
+																	<div class="roi_information">
+																	<div class="roi_info">FREIE VARIABLE 1</div>
+																	<div class="roi_info">FREIE VARIABLE 2</div>
 
-          </div>
-          <div class="roi_desc">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </div>
+																</div>
+																<div class="roi_desc">
+																	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+																</div>
 
-        </div>
-      </div>
-    </div>
-  </div>
+															</div>
+														</div>
+													</div>
+												</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -286,29 +285,28 @@ function randomly_install()
                         'title' => 'randomly_v1_bit',
                         'template' => $db->escape_string('
 <div class="roi_box">
-    <div class="roi_title">{$roi_threadtitle}</div>
-    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
-    <div class="roi_forum">Forum: {$roi_forum}</div>
-    <div class="roi_body">
-      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
-      </div>
+	<div class="roi_title">{$roi_threadtitle}</div>
+		<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+		<div class="roi_forum">Forum: {$roi_forum}</div>
+		<div class="roi_body">
+			<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
 
-      <div class="roi_inhalt">
+			<div class="roi_inhalt">
 
-        <div class="roi_gesuch">
-          <div class="roi_information">
-            <div class="roi_info">FREIE VARIABLE 1</div>
-            <div class="roi_info">FREIE VARIABLE 2</div>
+				<div class="roi_gesuch">
+					<div class="roi_information">
+					<div class="roi_info">FREIE VARIABLE 1</div>
+					<div class="roi_info">FREIE VARIABLE 2</div>
 
-          </div>
-          <div class="roi_desc">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </div>
+				</div>
+				<div class="roi_desc">
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</div>
 
-        </div>
-      </div>
-    </div>
-  </div>
+			</div>
+		</div>
+	</div>
+</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -330,30 +328,29 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_v2_bit',
                         'template' => $db->escape_string('
-<div class="roi_box">
-    <div class="roi_title">{$roi_threadtitle}</div>
-    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
-    <div class="roi_forum">Forum: {$roi_forum}</div>
-    <div class="roi_body">
-      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
-      </div>
+												<div class="roi_box">
+													<div class="roi_title">{$roi_threadtitle}</div>
+														<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+														<div class="roi_forum">Forum: {$roi_forum}</div>
+														<div class="roi_body">
+															<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
 
-      <div class="roi_inhalt">
+															<div class="roi_inhalt">
 
-        <div class="roi_gesuch">
-          <div class="roi_information">
-            <div class="roi_info">FREIE VARIABLE 1</div>
-            <div class="roi_info">FREIE VARIABLE 2</div>
+																<div class="roi_gesuch">
+																	<div class="roi_information">
+																	<div class="roi_info">FREIE VARIABLE 1</div>
+																	<div class="roi_info">FREIE VARIABLE 2</div>
 
-          </div>
-          <div class="roi_desc">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </div>
+																</div>
+																<div class="roi_desc">
+																	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+																</div>
 
-        </div>
-      </div>
-    </div>
-  </div>
+															</div>
+														</div>
+													</div>
+												</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -376,30 +373,29 @@ function randomly_install()
   $insert_array = array(
                         'title' => 'randomly_v3_bit',
                         'template' => $db->escape_string('
-<div class="roi_box">
-    <div class="roi_title">{$roi_threadtitle}</div>
-    <div class="roi_author">verfasst von: {$roi_threadstarter}</div>
-    <div class="roi_forum">Forum: {$roi_forum}</div>
-    <div class="roi_body">
-      <div class="roi_img" style="background: url(\'{$roi_image}\'); background-size: cover; background-position: center;">
-      </div>
+												<div class="roi_box">
+													<div class="roi_title">{$roi_threadtitle}</div>
+														<div class="roi_author">verfasst von: {$roi_threadstarter}</div>
+														<div class="roi_forum">Forum: {$roi_forum}</div>
+														<div class="roi_body">
+															<div class="roi_img" style="background: url('{$roi_image}'); background-size: cover; background-position: center; "></div>
 
-      <div class="roi_inhalt">
+															<div class="roi_inhalt">
 
-        <div class="roi_gesuch">
-          <div class="roi_information">
-            <div class="roi_info">FREIE VARIABLE 1</div>
-            <div class="roi_info">FREIE VARIABLE 2</div>
+																<div class="roi_gesuch">
+																	<div class="roi_information">
+																	<div class="roi_info">FREIE VARIABLE 1</div>
+																	<div class="roi_info">FREIE VARIABLE 2</div>
 
-          </div>
-          <div class="roi_desc">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </div>
+																</div>
+																<div class="roi_desc">
+																	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+																</div>
 
-        </div>
-      </div>
-    </div>
-  </div>
+															</div>
+														</div>
+													</div>
+												</div>
                         '),
                         'sid' => '-2',
                         'dateline' => TIME_NOW
@@ -414,7 +410,7 @@ function randomly_install()
 							'tid' => 1,
 							'stylesheet' => '.roi {
   background: #efefef;
-  width: 100%;
+  width: 1100px;
 
   padding: 10px;
   display: flex;
@@ -423,7 +419,7 @@ function randomly_install()
 
 .roi_box {
   background: #fff;
-  width: 47%;
+  width: 50%;
   padding: 10px;
 }
 
@@ -636,11 +632,8 @@ function randomly_index(&$forum)
 
 
 		// Die Keys als variable Variablen.
-		if ($randomly_xthread == '1')
-		{
-			$randomly_fields1_ex = explode(", ", $randomly_fields1);
-			$count1 = count($randomly_fields1_ex);
-		}
+		$randomly_fields1_ex = explode(", ", $randomly_fields1);
+		$count1 = count($randomly_fields1_ex);
 
 		// Schleife zum Auslesen
 		while ($randomly1 = $db->fetch_array($randomly_query1))
@@ -666,13 +659,10 @@ function randomly_index(&$forum)
 			$roi_threadtitle = "<a href=\"showthread.php?tid=".$randomly1['tid']."\">".$randomly1['subject']."</a>";
 
 			// Füllen der variablen Variablen, wenn xThreads vorhanden.
-			if ($count1 > '0')
+			for ($i = 0; $i < $count1; $i++)
 			{
-				for ($i = 0; $i < $count1; $i++)
-				{
-					$rand = $randomly_fields1_ex[$i];
-					$$rand = $randomly1[$rand];
-				}
+				$rand = $randomly_fields1_ex[$i];
+				$$rand = $randomly1[$rand];
 			}
 
 			// Ausgabe der Daten - abhängig
@@ -736,11 +726,8 @@ function randomly_index(&$forum)
 		$forum['roi_bit']  = "";
 
 		// Die Keys als variable Variablen.
-		if ($randomly_xthread == '1')
-		{
-			$randomly_fields2_ex = explode(", ", $randomly_fields2);
-			$count2 = count($randomly_fields2_ex);
-		}
+		$randomly_fields2_ex = explode(", ", $randomly_fields2);
+		$count2 = count($randomly_fields2_ex);
 
 
 		// Schleife zum Auslesen
@@ -764,13 +751,10 @@ function randomly_index(&$forum)
 			$roi_forum = "<a href=\"forumdisplay.php?fid=".$randomly2['fid']."\">".$randomly2['name']."</a>";
 
 			// Füllen der variablen Variablen, wenn xThreads vorhanden.
-			if ($count2 > '0')
+			for ($i = 0; $i < $count2; $i++)
 			{
-				for ($i = 0; $i < $count2; $i++)
-				{
-					$rand = $randomly_fields2_ex[$i];
-					$$rand = $randomly2[$rand];
-				}
+				$rand = $randomly_fields2_ex[$i];
+				$$rand = $randomly2[$rand];
 			}
 
 
@@ -838,11 +822,8 @@ function randomly_index(&$forum)
 		$forum['roi_bit']  = "";
 
 		// Die Keys als variable Variablen.
-		if ($randomly_xthread == '1')
-		{
-			$randomly_fields3_ex = explode(", ", $randomly_fields3);
-			$count3 = count($randomly_fields3_ex);
-		}
+		$randomly_fields3_ex = explode(", ", $randomly_fields3);
+		$count3 = count($randomly_fields3_ex);
 
 
 		// Schleife zum Auslesen
@@ -870,14 +851,12 @@ function randomly_index(&$forum)
 			$roi_threadtitle = "<a href=\"showthread.php?tid=".$randomly3['tid']."\">".$randomly3['subject']."</a>";
 
 			// Füllen der variablen Variablen, wenn xThreads vorhanden.
-			if ($count3 > '0')
+			for ($i = 0; $i < $count3; $i++)
 			{
-				for ($i = 0; $i < $count3; $i++)
-				{
-					$rand = $randomly_fields3_ex[$i];
-					$$rand = $randomly3[$rand];
-				}
+				$rand = $randomly_fields3_ex[$i];
+				$$rand = $randomly3[$rand];
 			}
+
 
 			// Ausgabe der Daten - abhängig
 			if ($randomly_templates == '0')
