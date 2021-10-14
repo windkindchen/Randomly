@@ -410,7 +410,7 @@ function randomly_install()
 							'tid' => 1,
 							'stylesheet' => '.roi {
   background: #efefef;
-  width: 1100px;
+  width: 1100px;&
 
   padding: 10px;
   display: flex;
