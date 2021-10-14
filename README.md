@@ -87,5 +87,15 @@ Das sieht dann so aus:
 Ihr könnt euch die benötigten Keys hier rauskopieren und entsprechend einfügen.
 
 
-### Templates & CSS
-Die Templates und das CSS wurden Basic gelassen (danke an ...) und sind vollkommen frei gestaltbar. Vorgegebene Variablen beginnen mit $roi_ - Dies beinhaltet die Variablen für den Thementitel mit Link, das Bild und den Usernamen mit Link. Sollte dies nicht benötigt werden, bitte weiterlesen. 
+### Anpassung der Inhalte, Templates & CSS
+Die Templates und das CSS wurden Basic gelassen (danke an ...) und sind vollkommen frei gestaltbar. Vorgegebene Variablen beginnen mit $roi_ - Dies beinhaltet die Variablen für den Thementitel mit Link, das Bild und den Usernamen mit Link.
+Weiterhin könnt ihr alle einzelnen Inhalte, die in der Datenbanktabellen PRÄFIX_threads, PRÄFIX_users und PRÄFIX_forums gespeichert sind, mit einbinden. Nutzt dafür jeweils die Variablen **$randomly1['FELDNAME']** für das erste Random, **$randomly2['FELDNAME']** für das zweite und **$randomly3['FELDNAME']** für das dritte Random. Die Feldnamen könnt ihr im PHPmyAdmin ganz einfach herausfinden - ersetzt FELDNAME einfach mit dem Begriff der in der Übersicht unter 'Name' steht:
+<img src="https://i.postimg.cc/7LQRxq4M/Screenshot-2021-10-14-180400.png" /> 
+(Beispiel aus der PRÄFIX_posts)
+
+Die Templates findet ihr in den jeweiligen Styletemplates unter **Random Threads auf dem Index**, ebenso wie ihr das CSS in einer eigenen Datei findet. Hier könnt ihr ganz normal mit HTML und CSS arbeiten. 
+
+
+
+# Abschluss
+Bei Fragen oder Problemen: Meldet euch bitte im Thread. Anregungen nehme ich jederzeit gerne entgegen.
