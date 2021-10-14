@@ -88,7 +88,7 @@ Ihr könnt euch die benötigten Keys hier rauskopieren und entsprechend einfüge
 
 
 ### Anpassung der Inhalte, Templates & CSS
-Die Templates und das CSS wurden Basic gelassen (danke an ...) und sind vollkommen frei gestaltbar. Vorgegebene Variablen beginnen mit $roi_ - Dies beinhaltet die Variablen für den Thementitel mit Link, das Bild und den Usernamen mit Link.
+Die Templates und das CSS wurden Basic gelassen (danke an <a href="https://epic.quodvide.de/member.php?action=profile&uid=2" target=_blank>White_Rabbit</a> @ EPIC) und sind vollkommen frei gestaltbar. Vorgegebene Variablen beginnen mit $roi_ - Dies beinhaltet die Variablen für den Thementitel mit Link, das Bild und den Usernamen mit Link.
 Weiterhin könnt ihr alle einzelnen Inhalte, die in der Datenbanktabellen PRÄFIX_threads, PRÄFIX_users und PRÄFIX_forums gespeichert sind, mit einbinden. Nutzt dafür jeweils die Variablen **$randomly1['FELDNAME']** für das erste Random, **$randomly2['FELDNAME']** für das zweite und **$randomly3['FELDNAME']** für das dritte Random. Die Feldnamen könnt ihr im PHPmyAdmin ganz einfach herausfinden - ersetzt FELDNAME einfach mit dem Begriff der in der Übersicht unter 'Name' steht:
 <img src="https://i.postimg.cc/7LQRxq4M/Screenshot-2021-10-14-180400.png" /> 
 (Beispiel aus der PRÄFIX_posts)
