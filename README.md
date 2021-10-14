@@ -8,6 +8,9 @@ Ein MyBB-Plugin, mit dem sich zufällig ausgelesene Inhalte zwischen zwei Katego
 Bitte lest die ReadMe aufmerksam, damit es bei der Installation und bei den Einstellungen des Plugins nicht zu Problemen kommt.
 Macht bitte ein Backup vor der Installation.
 
+Im Nachgang müsst ihr noch einige Anpassungen machen, z.B. wie alles aussehen soll oder welche Informationen angezeigt werden sollen.
+
+
 ### Eingebundene Plugins
 Das Plugin <a href="http://mybbhacks.zingaburga.com/showthread.php?tid=288" target=_blank>xThreads</a> von <a href="http://mybbhacks.zingaburga.com/member.php?action=profile&uid=1" target=_blank>ZiNgA BuRgA</a> kann eingebunden werden, muss jedoch nicht.
 
