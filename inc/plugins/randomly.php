@@ -577,17 +577,19 @@ function randomly_index(&$forum)
 	$forum['randomly_index'] = $forum['randomly_index2'] = $forum['randomly_index3'] = "";
 
 	// Bedingungen für Nicht-Ausgabe
-	if ($randomly_anzahl == '1' && $forum['fid'] != $randomly_show1)
-	{
-		return;
-	}
-	elseif ($random_anzahl == '2' && ($forum['fid'] != $randomly_show1 && $forum['fid'] != $randomly_show2))
-	{
-		return;
-	}
-	elseif ($random_anzahl == '3' && ($forum['fid'] != $randomly_show1 && $forum['fid'] != $randomly_show2 && $forum['fid'] != $randomly_show3))
-	{
-		return;
+	if(isset($random_anzahl)) {
+		if ($randomly_anzahl == '1' && $forum['fid'] != $randomly_show1)
+		{
+			return;
+		}
+		elseif ($random_anzahl == '2' && ($forum['fid'] != $randomly_show1 && $forum['fid'] != $randomly_show2))
+		{
+			return;
+		}
+		elseif ($random_anzahl == '3' && ($forum['fid'] != $randomly_show1 && $forum['fid'] != $randomly_show2 && $forum['fid'] != $randomly_show3))
+		{
+			return;
+		}
 	}
 
 
@@ -735,7 +737,7 @@ function randomly_index(&$forum)
 		{
 			// Bild
 			// Wenn kein xThreads verwendet wird ODER kein Bildfeld vorhanden ist ODER ein Gast es betrachtet, dann das Ersatzbild
-			if ($randomly_xthreads == '0' || $randomly_xpicture2 == '' || !$mybb->user['uid'] || $mybb->user['uid'] == '0')
+			if (($randomly_xthreads ?? null) == '0' || ($randomly_xpicture2 ?? null) == '' || !$mybb->user['uid'] || $mybb->user['uid'] == '0')
 			{
 				$roi_image = $randomly_picture2;
 			}
